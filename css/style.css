@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex{
+display: flex;
+}
+.containerIcons{
+height: 90vh;
+width: 100%;
+background-color: #ccc;
+font-size: 26px;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+}
+.containerIcons i{
+  font-size: 46px;
+  margin-top: 5px;
+}
+.box{
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000;
+}
