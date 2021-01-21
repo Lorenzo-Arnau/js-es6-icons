@@ -102,11 +102,24 @@ const icons =[
   },
 ];
 console.log(icons);
+// Milestone 2:
+// - Definire un array di colori e associare ad ogni tipo di icona un colore.
+// - Visualizzare le icone di colore diverso in base al tipo.
 const container = document.getElementsByClassName('containerIcons')[0];
+let familyType;
 icons.forEach((item) => {
+  if (item.family == 'animals') {
+    familyType = 'blue'
+  }
+  if (item.family == 'vegetable') {
+    familyType = 'orange'
+  }
+  if (item.family == 'user') {
+    familyType = 'purple'
+  }
 container.innerHTML += `
 <div class="box">
-<i class="${item.prefisso}${item.name}"></i> </br>
+<i class="${item.prefisso}${item.name}" style="color:${familyType}"></i> </br>
 ${item.name}
 </div>
 `
