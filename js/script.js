@@ -163,15 +163,18 @@ selector.change(function(){
       return element.family == 'user'
     })
   }
+  if (valore == 'all') {
+    visualize = icons
+  }
   container.innerHTML = ''
   visualize.forEach((item) => {
-    if (valore == 'animals') {
+    if (valore == 'animals' || item.family == 'animals') {
       familyType = colors[1]
     }
-    if (valore == 'vegetable') {
+    if (valore == 'vegetable'|| item.family == 'vegetable') {
       familyType = colors[0]
     }
-    if (valore == 'user') {
+    if (valore == 'user'|| item.family == 'user') {
       familyType = colors[2]
     }
     container.innerHTML += `
