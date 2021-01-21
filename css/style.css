@@ -28,6 +28,19 @@ align-items: center;
   border-radius: 10px;
   box-shadow: 1px 1px 1px #000;
 }
-.selector-box{  
+.selector-box{
+  background-color:#29B1DD;
+  height: 70px;
   justify-content: center;
+  align-items: center;
+}
+.selector{
+  height: 20px;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 10px;
 }
