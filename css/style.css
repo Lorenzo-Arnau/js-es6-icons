@@ -7,7 +7,7 @@
 display: flex;
 }
 .containerIcons{
-height: 90vh;
+height:calc(90vh - 70px);
 width: 100%;
 background-color: #ccc;
 font-size: 26px;
