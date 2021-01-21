@@ -34,6 +34,9 @@ align-items: center;
   justify-content: center;
   align-items: center;
 }
+h1{
+  color: #29B1DD;
+}
 .selector{
   height: 20px;
 }
